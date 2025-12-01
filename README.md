@@ -36,3 +36,12 @@
 - **KG Visualizations**: 2 Important visualizations are given here:
   1. Final KG before adding the DocumentChunk nodes and MENTIONS relations. How the disconnected components relates to different sub-topics as shown here.
   2. Final KG after adding the DocumentChunk nodes and MENTIONS relations. How the entire KG became more connected in this way as shown here.
+
+<img width="2228" height="1366" alt="image" src="https://github.com/user-attachments/assets/c9744a93-64ea-4387-be93-dfef25e495a3" />
+
+- **Final KG before adding the DocumentChunk nodes and MENTIONS relations**: How the disconnected components relates to different sub-topics as shown here.
+<img width="1426" height="1340" alt="image" src="https://github.com/user-attachments/assets/a39272b9-a805-4ce1-bfd5-50d35fd17644" />
+  
+- **Final KG after adding the DocumentChunk nodes and MENTIONS relations**: How the entire KG became more connected in this way as shown here.
+<img width="1080" height="1456" alt="image" src="https://github.com/user-attachments/assets/4b10b3fc-a51e-4c5f-9336-6ab84c8363e5" />
+
