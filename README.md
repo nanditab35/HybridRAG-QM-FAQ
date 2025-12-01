@@ -1,4 +1,4 @@
-# HybridRAG-QM-FAQ
+# Knwledge Graph (KG) Creation and Applying HybridRAG on the KG for Simple Quantum Mechanics related FAQ
 
 ## Data
 - The foundation of this RAG solution is a very small, curated Private Quantum Mechanics Document(s), only around the most fascinating topic of "Quantum Entanglement".
