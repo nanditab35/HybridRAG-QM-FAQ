@@ -1,6 +1,7 @@
 # HybridRAG-QM-FAQ
 
 ## Semi-automatic KG Ontology for QM FAQ
+- **Notebook to run**: "V3-Semiautomatic KG Ontology for QM FAQ.ipynb".
 - **Main Goal**
   - This notebook semi-auttomatically creates the KG using a pre-built JSON file. Also the JSON can be iteratively improvised by visualizing the KG in Neo4j as explained below.
   - The KG uses Neo4j Graph DB that contains both triplets (subject, relattion, object) and DocumentChunk nodes (raw chunks with chunk embeddings), with a MENTIONS relation connecting DocumentChunk nodes to the entity nodes mentioned in it.
@@ -45,3 +46,13 @@
 - **Final KG after adding the DocumentChunk nodes and MENTIONS relations**: How the entire KG became more connected in this way as shown here.
 <img width="1080" height="1456" alt="image" src="https://github.com/user-attachments/assets/4b10b3fc-a51e-4c5f-9336-6ab84c8363e5" />
 
+## HybridRAG for QM FAQ
+- **Notebook to run**: "V4-HybridRAG for QM FAQ.ipynb".
+- **Prerequisite**: Need to have the KG ready before running this notebook. The KG is created by running this notebook "V3-Semiautomatic KG Ontology for QM FAQ.ipynb" in this repository. This mentioned notebook semi-auttomatically creates the KG using a pre-built JSON file. Also the JSON can be iteratively improvised by visualizing the KG in Neo4j as explained in that notebook.
+- The HybridRAG pipeline uses Neo4j Graph DB that contains both triplets (subject, relattion, object) and DocumentChunk nodes (raw chunks with chunk embeddings).
+- This HybridRAG pipeline formats the context of the prompt by finding the top-k chunks by Vector Search on Neo4j Chunk Embedding Index, then finds the triplets that has some node(s) mentioned in the Chunk and the 1-hop neighbours of these nodes.
+- So the context has 2 parts: Unstructured Raw chunks and Structured Triplets.
+- The full prompt is formed by combining the User Query, Context, Instructions.
+- The full prompt is fed into an LLM e.g., gpt-3.5-turbo to generate the RAG response.
+
+<img width="2502" height="1136" alt="image" src="https://github.com/user-attachments/assets/19011f14-4157-46c1-bf2a-d37b96d8bf04" />
