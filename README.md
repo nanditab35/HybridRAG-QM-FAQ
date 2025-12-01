@@ -1,5 +1,12 @@
 # HybridRAG-QM-FAQ
 
+## Data
+- The foundation of this RAG solution is a very small, curated Private Quantum Mechanics Document(s), only around the most fascinating topic of "Quantum Entanglement".
+- This repository shows a semi-automatic way to create KG with open source technology, which is also usable to a Hybrid RAG that uses both strcutured and unstructured context.
+- Keeping in mind the complexity of manual effort involved in semi-automatic Knowlegde Graph (KG) creation, the scope of the document is kept very small.
+- To protect this source material, the corpus itself is not publicly shared in the repository.
+- This highlights the importance of the method that can be applied to any domain or any data.
+
 ## Semi-automatic KG Ontology for QM FAQ
 - **Notebook to run**: "V3-Semiautomatic KG Ontology for QM FAQ.ipynb".
 - **Main Goal**
