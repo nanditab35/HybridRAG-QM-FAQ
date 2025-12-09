@@ -63,3 +63,4 @@
 - The full prompt is fed into an LLM e.g., gpt-3.5-turbo to generate the RAG response.
 
 <img width="2502" height="1136" alt="image" src="https://github.com/user-attachments/assets/19011f14-4157-46c1-bf2a-d37b96d8bf04" />
+## A
