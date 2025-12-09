@@ -63,4 +63,17 @@
 - The full prompt is fed into an LLM e.g., gpt-3.5-turbo to generate the RAG response.
 
 <img width="2502" height="1136" alt="image" src="https://github.com/user-attachments/assets/19011f14-4157-46c1-bf2a-d37b96d8bf04" />
-## A
+
+## References:
+- **Concept**:
+    - From Local to Global: A GraphRAG Approach to Query-Focused Summarization [https://arxiv.org/pdf/2404.16130]
+- **Implementation**:
+    - Knowledge Graphs & LLMs: Real-Time Graph Analytics [https://neo4j.com/blog/developer/knowledge-graph-llm-analytics/]
+    - The GraphRAG Manifesto: Adding Knowledge to GenAI [https://neo4j.com/blog/genai/graphrag-manifesto/]
+    - Enhancing RAG-based application accuracy by constructing and leveraging knowledge graphs [https://blog.langchain.com/enhancing-rag-based-applications-accuracy-by-constructing-and-leveraging-knowledge-graphs/]
+    - Vectors and Graphs: Better Together [https://neo4j.com/blog/developer/vectors-graphs-better-together/]
+- **Tools**:
+    - Python GraphRAG Package [https://neo4j.com/docs/neo4j-graphrag-python/current/]
+
+
+
